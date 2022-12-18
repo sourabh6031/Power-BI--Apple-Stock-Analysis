@@ -1,0 +1,14 @@
+In this project,I have two raw data file of Apple Stocks of seven years and each contain 'Date','Open','High','Low','Close','Volume' columns .
+
+I have first cleaned the data in query editor to remove unnecessary columns and rows. Then created another table 'weekdays' and connect it with
+first table using cardinal relationship relation. 
+
+After adding the required columns to data model i've created some measures for necessary visual analysis.
+
+I have also manually created calendar table which contains important calculated data for date wise analysis.
+
+Aftewards i have created four charts for dashboard, which are as follows-
+1. Line chart - it shows average price by the end of all seven years
+2. Line and Stacked column chart - it shows average of end vs start price and average of quarterly end price respectively showing how stocks perform quartely.
+3. Column chart - it shows average end price by weekdays,it is connected by the weekdays slicer.
+4. Gauge chart - it shows maximum,minimum and average price. It is connected by the weekdays slicer and analyse how stocks perform on different weekdays. 
